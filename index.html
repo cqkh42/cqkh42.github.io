@@ -1,12 +1,60 @@
 ---
 layout: default
-title: Twitter Open Source
-description: Twitter Open Source Website
-keywords: twitter, open, source, open source, finatra, finagle, scala
-url: https://opensource.twitter.com
+title: cqkh42 - Home Page
+description: cqkh42
+keywords: datascience, cqkh42, explore, visualisation, data, science, statistics
+url: https://cqkh42.github.io
 custom_css: index.css
 custom_js: index.js
 ---
-<div>
-test friday
-</div>
+<!-- index.html -->
+<div class="bg-light container-fluid" id="intro">
+  <div class="row ">
+    <div class="col">
+      <blockquote class="">
+      <p class="blockquote">Move fast and break things</p>
+      <footer class="blockquote-footer">
+        <cite>Mark Zuckerberg</cite>
+      </footer>
+      </blockquote>
+    </div>
+  </div>
+  <div class="row" id="about">
+    <div class="col">
+      <img class="" src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairTheCaesar&accessoriesType=Blank&hairColor=BrownDark&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=ShirtCrewNeck&clotheColor=Blue02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'/>
+    </div>
+    <div class="col">
+      <p class="">Hi, I'm Jack. This is some information about me. The standard Lorem Ipsum passage, used since the 1500s
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Still like the look of me? <a href="/">download my cv</a></p>
+    </div>
+  </div>
+  <div class="row" id="projects">
+    <div class="col">
+      <p>I work on cool projects. Check them out</p>
+    </div>
+    <div class="col">
+      <button class="btn btn-primary btn-lg">
+        <span>Explore Projects</span>
+      </button>
+    </div>
+  </div>
+  <div class="row" id="blog">
+    <div class="col">
+      <ul>
+        {% for post in site.posts limit:3 %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="col">
+      <p>I also write blogposts. check them out too.</p>
+    </div>
+  </div>
+  <div class="row" id="github">
+    <div class="col">Check out my github too</div>
+    <div class="col">
+      <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
+    </div>
+  </div>
