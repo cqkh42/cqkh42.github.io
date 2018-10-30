@@ -14,7 +14,7 @@
     <meta http-equiv='imagetoolbar' content='no'/>
 
     <title>cqkh42 - Home Page</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" type="image/png" href="/static/public/images/favicon.ico"/>
      <link rel="shortcut icon" type="image/png" href="/static/public/images/avataars.png"/>
      <!-- <link rel="apple-touch-icon" sizes="180x180" href="/static/public/images/apple-touch-icon.png"> -->
@@ -40,11 +40,10 @@
     <!-- <link rel="stylesheet" href="/css/index.css"/> -->
 
   </head>
-
-<!-- Navigation Bar -->
+<body>
 <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top"> 
   <div class="navbar-brand">
-    <img width="60" height="60" src='/static/public/images/avataaars.svg' alt="">
+    <img width="60" height="60" src='/static/public/images/avataaars.png' alt="">
     <a class="navbar-text text-white" href="">cqkh42</a>
   </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,69 +69,68 @@
     </ul> 
   </div>
 </nav> 
-<body>
-
   <!-- index.html -->
 <div class="bg-light container-fluid" id="intro">
-  <div class="row ">
-    <div class="col">
-      <blockquote class="">
-      <p class="blockquote">Move fast and break things</p>
-      <footer class="blockquote-footer">
-        <cite>Mark Zuckerberg</cite>
+  <div class="row justify-content-center bg-primary text-light py-2 py-md-5">
+    <div class="col-md-8">
+      <blockquote class="blockquote">
+      <p class="mb-0 display-4">Move fast and break things</p>
+      <footer class="blockquote-footer text-white text-right">
+        Mark Zuckerberg
       </footer>
       </blockquote>
     </div>
   </div>
-  <div class="row" id="about">
-    <div class="col">
-      <img class="" src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairTheCaesar&accessoriesType=Blank&hairColor=BrownDark&facialHairType=BeardLight&facialHairColor=BrownDark&clotheType=ShirtCrewNeck&clotheColor=Blue02&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light'/>
+  <div class="row justify-content-around py-2 py-md-5" id="about">
+    <div class="col-md ml-md-auto text-center">
+      <img class="img-fluid" src='/static/public/images/no-bg.png'/>
     </div>
-    <div class="col">
-      <p class="">Hi, I'm Jack. This is some information about me. The standard Lorem Ipsum passage, used since the 1500s
-"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Still like the look of me? <a href="/">download my cv</a></p>
+    <div class="col-md align-self-center ml-md-auto text-justify">
+      <h1 class="text-center mb-md-5">About Me</h1>
+      <p class="">Hi, I'm Jack. This is some information about me. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Still like the look of me? <a href="/">download my cv</a></p>
     </div>
   </div>
-  <div class="row" id="projects">
-    <div class="col">
-      <p>I work on cool projects. Check them out</p>
+  <div class="row py-2 py-md-5" id="projects">
+    <div class="col-sm text-justify align-self-center">
+      <h1 class="text-center mb-md-5">What I Do</h1>
+      <p>In my spare time I work on some cool projects. Both open source and my own showcase. Feel free to check them out, fork them, or even put in a pull request.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
-    <div class="col">
+    <div class="col-sm text-center align-self-center">
       <button class="btn btn-primary btn-lg">
         <span>Explore Projects</span>
       </button>
     </div>
   </div>
-  <div class="row" id="blog">
-    <div class="col">
+  <div class="row py-2 py-md-5" id="blog">
+    <div class="col-sm">
       <ul>
         
         <li>
-          <a href="/2018/10/18/post-2.html">post 2</a>
+          <a href="/post-2/">this is a second post</a>
         </li>
         
         <li>
-          <a href="/2018/10/17/post-1.html">post 1</a>
+          <a href="/post-1/">this is a first post</a>
         </li>
         
       </ul>
     </div>
-    <div class="col">
-      <p>I also write blogposts. check them out too.</p>
+    <div class="col-sm text-justify align-self-center">
+      <p>Some of projects I work on end in, or start as, blog posts. These can be about computers, technology, statistics, or anything else I was randomly interested in that week. Most posts are backed by a git repository, so feel free to have a look, fork the repo, or even put a pull request in.</p>
     </div>
   </div>
-  <div class="row" id="github">
+  <div class="row py-5" id="github">
     <div class="col">Check out my github too</div>
     <div class="col">
-      <img src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png">
+      <i class="fab fa-github" style="font-size: 400px"></i>
     </div>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </div>  
+  <!-- JS -->
+<script defer src="all_fontawesome.js"></script>
+<script src="/js/jquery-3.2.1.slim.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/js/main.js"></script> -->
+<!-- <script src="/js/index.js"></script> -->
 </body>
 </html>
 
-<!-- <script src="/js/main.js"></script> -->
-<!-- <script src="/js/index.js"></script> -->
