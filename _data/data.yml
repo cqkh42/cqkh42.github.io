@@ -1,0 +1,6 @@
+navbar:
+  - text: test_a
+    link: /test_a
+  - text: test_b
+    link: /test_b
+  
