@@ -12,6 +12,6 @@ navbar:
 
 sections:
   - section-id: test
-  - image: images/avatar-round.png
-  - heading: test
-  - text: test, test, test
+    image: images/avatar-round.png
+    heading: test
+    text: test, test, test
