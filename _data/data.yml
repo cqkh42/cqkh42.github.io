@@ -35,6 +35,8 @@ sections:
     image: images/avatar-rect.png
     heading: Check Out My Blog
     text: |
-      Some of projects I work on end in, or start as, blog posts. These can be about computers, technology, 
-      statistics, or anything else I was randomly interested in that week. Most posts are backed by a git repository, 
-      so feel free to have a look, fork the repo, or even put a pull request in.
+      Some of projects I work on end in, or start as, blog posts. 
+      
+      These can be about computers, technology, statistics, or anything else I was randomly interested in that week. 
+      
+      Most posts are backed by a git repository, so feel free to have a look, fork the repo, or even put a pull request in.
