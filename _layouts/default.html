@@ -3,11 +3,13 @@
 {% include head.html %}
 <body>
 {% include nav.html %}
+  <div class="container-fluid">
   {{ content }}  
   
 {% for section in site.data.data.sections %}
   {% include text_right.html content=section %}
 {% endfor %}
+  </div>
   
 {% include footer.html %}
 
