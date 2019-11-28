@@ -23,7 +23,7 @@
       <li class="nav-item"> 
         <a class="nav-link text-white" href="https://github.com/cqkh42">Github</a> 
       </li>
-      {% assign experiences = site.data.data.navbar %}
+      {% assign navbar = site.data.data.navbar %}
       {% for nav in navbar %}
       <li class="nav-item">
         <a class="nav-link text-white" href="{{ site.baseurl }}{{ nav.link }}">{{ nav.text }}</a>
