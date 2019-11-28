@@ -5,6 +5,10 @@
 {% include nav.html %}
   {{ content }}  
 {% include footer.html %}
+
+{% for section in site.data.data.sections %}
+  {% include text_right.html content=section %}
+{% endfor %}
 </body>
 </html>
 
