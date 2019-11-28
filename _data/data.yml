@@ -1,6 +1,6 @@
 navbar:
   - text: Projects
-    link: {{ site.baseurl }}/projects
+    link: /projects
   - text: About Me
     link: /about
   - text: CV
