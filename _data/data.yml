@@ -9,3 +9,5 @@ navbar:
     link: /blog
   - text: Github
     link: https://github.com/cqkh42
+  - text: test
+    link: https://google.com
