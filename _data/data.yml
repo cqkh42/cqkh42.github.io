@@ -1,6 +1,11 @@
 navbar:
-  - text: test_a
-    link: /test_a
-  - text: test_b
-    link: /test_b
-  
+  - text: Projects
+    link: {{ site.baseurl }}/projects
+  - text: About Me
+    link: /about
+  - text: CV
+    link: /cv
+  - text: Blog
+    link: /blog
+  - text: Github
+    link: https://github.com/cqkh42
