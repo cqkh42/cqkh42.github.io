@@ -26,7 +26,7 @@
       {% assign experiences = site.data.data.navbar %}
       {% for nav in navbar %}
       <li class="nav-item">
-        <a class="nav-link text-white" href="{{ site.baseurl }}{{ experience.link }}">{{ experience.text }}</a>
+        <a class="nav-link text-white" href="{{ site.baseurl }}{{ nav.link }}">{{ nav.text }}</a>
            </li>
       {% endfor %}
     </ul> 
