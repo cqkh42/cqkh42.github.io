@@ -9,9 +9,9 @@
 {% for section in site.data.data.sections %}
     {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
     {% if thecycle == 'odd' %}
-        {% include text_right.html content=section %}
+        {% include 'text_right.html' content=section %}
     {% else %}
-        {% include text-left.html content=section %}
+        {% include 'text-left.html' content=section %}
     {% endif %}
 {% endfor %}
   </div>
