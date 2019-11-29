@@ -8,11 +8,7 @@
   
 {% for section in site.data.data.sections %}
     {% capture thecycle %}{% cycle 'text_right.html', 'text-left.html' %}{% endcapture %}
-    {% if thecycle == 'text_right.html' %}
-        {% include {{thecycle}} content=section %}
-    {% else %}
-        {% include text-left.html content=section %}
-    {% endif %}
+    {% include {{thecycle}} content=section %}
 {% endfor %}
   </div>
 </body>
