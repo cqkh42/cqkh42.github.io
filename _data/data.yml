@@ -15,11 +15,13 @@ sections:
     image: images/avatar-rect.png
     heading: About Me
     text: |
-      Hi, I'm Jack. I'm a Data Scientist at JP Morgan. I spend my time pulling apart data (and various bits of tech), 
-      seeing how it works, and then putting it back together again; mostly in the correct order.     
+      Hi, I'm Jack. I'm a Data Scientist at JP Morgan. I spend my time pulling
+      apart data (and various bits of tech), seeing how it works, and then
+      putting it back together again; mostly in the correct order.
       
-      My day job uses Python, R, and a bunch of other tools to apply the scientific method to data analysis; 
-      testing hypothesese, building models and communicating my results in a visual, easy to understand manner.
+      My day job uses Python, R, and a bunch of other tools to apply the
+      scientific method to data analysis; testing hypothesese, building models
+      and communicating my results in a visual, easy to understand manner.
       
       Still reading? Why not [get in touch](mailto:jackcooper93@gmail.com) or 
       [checkout my cv](/cv).
@@ -27,16 +29,20 @@ sections:
     image: images/avatar-rect.png
     heading: What I Do
     text: |
-      I work on a variety of projects, varying between the visual, the technical, and (occasionally), the useful.
+      I work on a variety of projects, varying between the visual,
+      the technical, and (occasionally) the useful.
       
-      These projects are almost always open source. Feel free to check them out, fork a project, or even put in a 
-      pull request if you have any suggestions or improvements.
+      These projects are almost always open source. Feel free to check them
+      out, fork a project, or even put in a pull request if you have any
+      suggestions or improvements.
   - section-id: blog
     image: images/avatar-rect.png
     heading: Check Out My Blog
     text: |
       Some of projects I work on end in, or start as, blog posts. 
       
-      These can be about computers, technology, statistics, or anything else I was randomly interested in that week. 
+      These can be about computers, technology, statistics, or anything else
+      I was randomly interested in that week.
       
-      Most posts are backed by a git repository, so feel free to have a look, fork the repo, or even put a pull request in.
+      Most posts are backed by a git repository, so feel free to have a look,
+      fork the repo, or even put a pull request in.
