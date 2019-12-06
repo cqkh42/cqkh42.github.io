@@ -15,7 +15,7 @@ sections:
     image: images/avatar-rect.png
     heading: About Me
     text: |
-      Hi, I'm Jack. I'm a Data Scientist at JP Morgan. I spend my time pulling
+      Hi, I'm Jack. I'm a Senior Data Scientist at JP Morgan. I spend my time pulling
       apart data (and various bits of tech), seeing how it works, and then
       putting it back together again; mostly in the correct order.
       
@@ -24,7 +24,7 @@ sections:
       and communicating my results in a visual, easy to understand manner.
       
       Still reading? Why not [get in touch](mailto:jackcooper93@gmail.com) or 
-      [checkout my cv](/cv).
+      checkout my [cv](/cv).
   - section-id: projects
     image: images/avatar-rect.png
     heading: What I Do
