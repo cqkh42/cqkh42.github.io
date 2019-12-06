@@ -26,7 +26,7 @@ sections:
       Still reading? Why not [get in touch](mailto:jackcooper93@gmail.com) or 
       checkout my [cv](/cv).
   - section-id: projects
-    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+    image: "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg"
     heading: What I Do
     text: |
       I work on a variety of projects, varying between the visual,
