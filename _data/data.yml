@@ -1,8 +1,8 @@
 navbar:
+  - text: About Me
+    link: \#about
   - text: Projects
     link: /projects
-  - text: About Me
-    link: /about
   - text: CV
     link: /cv
   - text: Blog
